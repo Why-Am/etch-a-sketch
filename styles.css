@@ -41,3 +41,9 @@ button {
 .highlight {
     background-color: rebeccapurple;
 }
+
+.input-container {
+    display: flex;
+    gap: 5px;
+    margin-top: 5px;
+}
