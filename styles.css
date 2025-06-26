@@ -1,0 +1,43 @@
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 0;
+}
+
+button {
+    margin: 16px
+}
+
+.grid-container {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 500px;
+    flex: 0 0 auto;
+}
+
+.grid-row {
+    display: flex;
+    flex: 1 1 auto;
+}
+
+.grid-square {
+    flex: 1 1 auto;
+    border-color: black;
+    border-width: 1px 0 0 1px;
+    border-style: dotted;
+}
+
+.grid-bottom {
+    border-bottom-width: 1px;
+}
+
+.grid-right {
+    border-right-width: 1px;
+}
+
+.highlight {
+    background-color: rebeccapurple;
+}
